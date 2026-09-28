@@ -2,6 +2,11 @@
   "name": "johern-lim-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://johernlim.github.io/Portfolio/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/johernlim/Portfolio.git"
+  },
   "type": "module",
   "engines": {
     "node": ">=22.12.0"

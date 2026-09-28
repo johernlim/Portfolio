@@ -75,7 +75,7 @@ export const education = [
     institution: "Universiti Tunku Abdul Rahman (UTAR)",
     location: "Kampar, Malaysia",
     dates: "January 2024 – Present",
-    note: "Expected graduation: January 2027 · as stated in resume",
+    note: "Expected graduation: January 2027 ",
   },
   {
     qualification: "Foundation in Science",

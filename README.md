@@ -1,6 +1,9 @@
 # Lim Johern — Personal portfolio
 
-A responsive, static React + Vite portfolio. No backend, API keys, paid services or external fonts are required. Nothing has been published. Your supplied resume is included as `public/resume.pdf`.
+A responsive, static React + Vite portfolio. No backend, API keys, paid services or external fonts are required. Your supplied resume is included as `public/resume.pdf`.
+
+- Live portfolio: <https://johernlim.github.io/Portfolio/>
+- Source repository: <https://github.com/johernlim/Portfolio>
 
 ## 1. Prerequisites
 
@@ -107,7 +110,7 @@ For a persistent local setting, copy `.env.example` to `.env.local` and edit it.
 
 ## 5. Create a repository and push
 
-Sign into [GitHub](https://github.com/new) and create an empty **public** repository named `johern-portfolio` (or your chosen name). Do not initialize a README, license or gitignore remotely because the project already exists locally. Public repositories can use GitHub Pages on GitHub Free.
+This project is already published in the public repository `johernlim/Portfolio`. If rebuilding the setup under another account, create an empty **public** repository in [GitHub](https://github.com/new). Do not initialize a README, license or gitignore remotely because the project already exists locally. Public repositories can use GitHub Pages on GitHub Free.
 
 Run from the project folder, replacing the URL if you chose another repository name:
 
@@ -116,7 +119,7 @@ git init
 git add .
 git commit -m "Build personal portfolio"
 git branch -M main
-git remote add origin https://github.com/johernlim/johern-portfolio.git
+git remote add origin https://github.com/johernlim/Portfolio.git
 git push -u origin main
 ```
 
