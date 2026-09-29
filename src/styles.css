@@ -321,6 +321,7 @@ h1 > span:not(.hero-period) {
   letter-spacing: 0.03em;
 }
 .hero-bottom a {
+  margin-left: auto;
   color: #d4dff2;
 }
 .hero-bottom a span {

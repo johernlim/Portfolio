@@ -248,7 +248,6 @@ export default function App() {
             </div>
           </aside>
           <div className="hero-bottom">
-            <span>A selection of work & ideas</span>
             <a href="#projects">
               Explore below <span aria-hidden="true">↓</span>
             </a>
@@ -287,11 +286,11 @@ export default function App() {
           id="projects"
           tabIndex={-1}
           className="section container"
-          aria-label="Selected projects"
+          aria-label="My Project"
         >
           <SectionTitle
             number="02"
-            eyebrow="SELECTED WORK"
+            eyebrow="My Project"
             title="Ideas put into practice."
             description="Academic and personal projects across mobile, web and applied AI. Open a project for its approach and development notes."
           />
@@ -437,6 +436,16 @@ export default function App() {
               </LinkButton>
               <LinkButton href={profile.linkedin} external>
                 LinkedIn
+              </LinkButton>
+              <LinkButton
+                href={
+                  profile.phoneHref
+                    ? `https://wa.me/${profile.phoneHref.replace(/\D/g, "")}`
+                    : null
+                }
+                external
+              >
+                WhatsApp
               </LinkButton>
               <LinkButton
                 href={profile.phoneHref ? `tel:${profile.phoneHref}` : null}
