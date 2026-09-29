@@ -461,8 +461,7 @@ export default function App() {
           JL<span>.</span>
         </a>
         <p>
-          © {new Date().getFullYear()} {profile.name} · Built with React &
-          curiosity.
+          © {new Date().getFullYear()} {profile.name}
         </p>
         <a href="#home">Back to top ↑</a>
       </footer>
